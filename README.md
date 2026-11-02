@@ -2,6 +2,8 @@
 
 **Find the right people to meet at a virtual event, automatically.**
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://synk-matchmaker.streamlit.app)  **Live demo: [synk-matchmaker.streamlit.app](https://synk-matchmaker.streamlit.app)**. Add your own bio and see who you should meet.
+
 Attendees write a short bio. The matchmaker uses NLP embeddings to understand what each person does, then:
 
 - **Recommends who to meet**: each person's top matches, ranked by similarity
