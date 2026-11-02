@@ -10,7 +10,7 @@ Attendees fill in their field, interests and a short bio. The matchmaker uses NL
 - **Creates breakout rooms**: groups attendees by topic with K-means clustering
 - **Maps the event**: plots every attendee in 2D so you can see the communities
 
-Built as a prototype feature for AI-powered virtual event platforms (conferences, trade shows and networking events), where helping people find each other is the hardest part.
+An **independent, open-source experimental project**. I designed and built it on my own initiative as a prototype semantic-matching feature for AI-powered virtual event platforms (conferences, trade shows and networking events), where helping people find each other is the hardest part. It is not an official product of any company.
 
 ![Web app screenshot](outputs/app_screenshot.png)
 
