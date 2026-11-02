@@ -1,77 +1,193 @@
+=== Before vs after for the test visitor ===
 
-Method used: transformer (all-MiniLM-L6-v2)  |  matrix shape: (34, 384)
+BEFORE: bio only [transformer]
+Test Visitor (Student) should meet:
+   0.72  Mariam Khalil - Industrial Engineering Student
+   0.64  Hamza Qureshi - Supply Chain Student
+   0.59  Arjun Patel - Civil Engineering Student
+   0.50  Layla Hassan - Industrial Engineering Student
+   0.44  Youssef Amrani - Automation Engineer
+
+AFTER: transformer (all-MiniLM-L6-v2), weighted profile (focus 60%)
+Test Visitor (Student) should meet:
+   0.77  Hamza Qureshi - Supply Chain Student
+   0.73  Mariam Khalil - Industrial Engineering Student
+   0.67  Mei Tanaka - Industrial Engineer
+   0.64  Youssef Amrani - Automation Engineer
+   0.57  Layla Hassan - Industrial Engineering Student
+
+=== Matches for everyone else  |  111 attendees, 48 fields  |  transformer (all-MiniLM-L6-v2), weighted profile (focus 60%) ===
 
 Aisha Khan (ML Engineer) should meet:
-   0.72  Amir Rahimi - Computer Vision Engineer
-   0.54  Omar Farouk - Robotics Engineer
-   0.39  Yara Mansour - Student
+   0.70  Amir Rahimi - Computer Vision Engineer
+   0.53  Omar Farouk - Robotics Engineer
+   0.51  Yara Mansour - Student
 
 Diego Ramos (Startup Founder) should meet:
-   0.72  Xavier Dubois - Angel Investor
-   0.59  Carlos Vega - Fintech Founder
-   0.58  Ibrahim Saleh - Venture Capitalist
+   0.64  Carlos Vega - Fintech Founder
+   0.63  Xavier Dubois - Angel Investor
+   0.49  Ibrahim Saleh - Venture Capitalist
 
 Hana Sato (3D Artist) should meet:
-   0.69  George Lin - Game Developer
-   0.67  Victor Huang - VR Developer
-   0.60  Gabriel Silva - Technical Artist
-
-Yara Mansour (Student) should meet:
-   0.67  Fatima Zahra - Student
-   0.50  Omar Farouk - Robotics Engineer
-   0.49  Marco Rossi - Startup Founder
+   0.76  George Lin - Game Developer
+   0.74  Victor Huang - VR Developer
+   0.63  Gabriel Silva - Technical Artist
 
 Dina Yousef (Event Organizer) should meet:
-   0.42  Victor Huang - VR Developer
-   0.37  Hana Sato - 3D Artist
-   0.35  Bella Martins - Community Manager
+   0.58  Bella Martins - Community Manager
+   0.40  Victor Huang - VR Developer
+   0.38  Hana Sato - 3D Artist
 
-Breakout rooms (silhouette score: 0.145)
+Hannah Weiss (Doctor) should meet:
+   0.68  Samir Haddad - Hospital Administrator
+   0.58  Abdul Rahman - Medical Student
+   0.55  Chloe Martin - Nurse
 
-Room 1: [data / build / lead]
+Victoria Hughes (Corporate Lawyer) should meet:
+   0.60  Natalia Ivanova - Legal Tech Founder
+   0.47  Ryan Connor - Business Student
+   0.45  Aaliyah Brooks - Management Consultant
+
+Fatima Zahra (Student) should meet:
+   0.67  Yara Mansour - Student
+   0.47  Omar Farouk - Robotics Engineer
+   0.47  Aisha Khan - ML Engineer
+
+Breakout rooms (silhouette score: 0.099)
+
+Room 1: [Education + Film & Music]
+   - Farah Haddad (Frontend Developer)
+   - Marco Rossi (Startup Founder)
+   - Wen Li (Brand Designer)
+   - Sarah Thompson (High School Teacher)
+   - Zara Ahmed (Media Student)
+   - Marcus Johnson (Film Director)
+   - Leah Cohen (Music Producer)
+   - Ines Duarte (Illustrator)
+
+Room 2: [Supply Chain & Logistics + Retail & E-commerce]
+   - Ahmed Al Mansoori (Logistics Manager)
+   - Grace Okafor (Supply Chain Analyst)
+   - Lucas Moreau (Freight Forwarder)
+   - Nina Kowalski (Procurement Lead)
+   - Hassan Al Hashimi (Port Operations Manager)
+   - Bilal Chaudhry (Retail Store Manager)
+
+Room 3: [Marketing + Media & Journalism]
    - Ben Carter (Data Scientist)
    - Julia Novak (Marketing Lead)
-   - Karan Mehta (Backend Engineer)
-   - Priya Nair (Data Engineer)
-   - Quinn Taylor (Content Creator)
-   - Rami Aziz (Blockchain Developer)
-   - Uma Rao (Product Manager)
-   - Wen Li (Brand Designer)
-   - Zane Cooper (Sales Lead)
-   - Bella Martins (Community Manager)
-   - Hiba Ali (Growth Marketer)
-
-Room 2: [apps / user / react]
-   - Emma Schultz (Product Designer)
-   - Farah Haddad (Frontend Developer)
    - Nadia Petrova (UX Researcher)
-   - Ethan Brooks (Full Stack Developer)
+   - Quinn Taylor (Content Creator)
+   - Uma Rao (Product Manager)
+   - Bella Martins (Community Manager)
+   - Carlos Vega (Fintech Founder)
+   - Hiba Ali (Growth Marketer)
+   - Amira Saleh (Travel Startup Founder)
+   - Jasmine Lee (E-commerce Manager)
+   - Daniel Harris (Journalist)
+   - Grace Kim (Nonprofit Director)
 
-Room 3: [train / learning / vision]
+Room 4: [Industrial Engineering + Manufacturing & Automation]
+   - Layla Hassan (Industrial Engineering Student)
+   - Rohan Gupta (Operations Manager)
+   - Mei Tanaka (Industrial Engineer)
+   - Youssef Amrani (Automation Engineer)
+   - Sara Lindqvist (Operations Research Analyst)
+   - Mariam Khalil (Industrial Engineering Student)
+   - Hamza Qureshi (Supply Chain Student)
+   - Priscilla Adeyemi (Quality Engineer)
+   - Natalia Ivanova (Legal Tech Founder)
+   - Test Visitor (Student)
+
+Room 5: [Finance & Banking + Investing]
+   - Diego Ramos (Startup Founder)
+   - Ibrahim Saleh (Venture Capitalist)
+   - Xavier Dubois (Angel Investor)
+   - Zane Cooper (Sales Lead)
+   - James Whitfield (Investment Banker)
+   - Priyanka Shah (Financial Analyst)
+   - Omar Siddiqui (Finance Student)
+   - Claire Dupont (Actuary)
+   - Linda Park (Accountant)
+   - Felipe Rojas (Accounting Student)
+   - Victoria Hughes (Corporate Lawyer)
+   - Kareem Abdallah (Law Student)
+   - Mohamed Diallo (University Lecturer)
+   - Ana Lopez (Education Student)
+   - Ryan Connor (Business Student)
+   - Aaliyah Brooks (Management Consultant)
+   - Fatima Begum (HR Manager)
+   - Thomas Meyer (Recruiter)
+   - Khalid Al Suwaidi (Real Estate Agent)
+   - Luca Bianchi (Hotel Manager)
+   - Pierre Laurent (Chef)
+   - Noor Hamdan (Pilot)
+   - Yusuf Demir (Public Administration Student)
+
+Room 6: [Energy + Environment & Sustainability]
+   - Ingrid Haugen (Electrical Engineer)
+   - Mateo Fernandez (Solar Energy Consultant)
+   - Aliyu Bello (Petroleum Engineer)
+   - Freya Nilsson (Sustainability Consultant)
+
+Room 7: [Civil Engineering & Construction + Mechanical Engineering]
+   - Daniel Okoro (Mechanical Engineer)
+   - Elif Demir (Mechanical Engineering Student)
+   - Raj Malhotra (Chemical Engineer)
+   - Kwame Mensah (Civil Engineer)
+   - Isabella Costa (Construction Project Manager)
+   - Arjun Patel (Civil Engineering Student)
+   - Sofia Andersson (Architect)
+   - Tariq Nasser (Architecture Student)
+   - Kai Nakamura (Environmental Scientist)
+   - Joseph Mwangi (Agritech Founder)
+   - Rosa Jimenez (Agronomist)
+   - Monica Reyes (Property Developer)
+   - Erik Johansson (Automotive Engineer)
+   - Ama Owusu (Policy Advisor)
+
+Room 8: [Artificial Intelligence + Computer Science]
    - Aisha Khan (ML Engineer)
    - Chen Wei (AI Researcher)
+   - Lena Fischer (NLP Engineer)
    - Omar Farouk (Robotics Engineer)
    - Sofia Gomez (Healthcare AI)
+   - Yara Mansour (Student)
    - Amir Rahimi (Computer Vision Engineer)
+   - Fatima Zahra (Student)
+   - Sebastian Wolf (Aerospace Engineer)
 
-Room 4: [virtual / 3d / worlds]
+Room 9: [Gaming & 3D + Design]
+   - Emma Schultz (Product Designer)
    - George Lin (Game Developer)
    - Hana Sato (3D Artist)
-   - Tom Becker (DevOps Engineer)
+   - Rami Aziz (Blockchain Developer)
    - Victor Huang (VR Developer)
    - Dina Yousef (Event Organizer)
    - Gabriel Silva (Technical Artist)
 
-Room 5: [year / science / building]
-   - Lena Fischer (NLP Engineer)
-   - Marco Rossi (Startup Founder)
-   - Yara Mansour (Student)
-   - Fatima Zahra (Student)
+Room 10: [Software Engineering + Data Science]
+   - Karan Mehta (Backend Engineer)
+   - Priya Nair (Data Engineer)
+   - Tom Becker (DevOps Engineer)
+   - Ethan Brooks (Full Stack Developer)
 
-Room 6: [seed / founder / looking]
-   - Diego Ramos (Startup Founder)
-   - Ibrahim Saleh (Venture Capitalist)
-   - Xavier Dubois (Angel Investor)
-   - Carlos Vega (Fintech Founder)
+Room 11: [Healthcare & Medicine + Pharma & Biotech]
+   - Hannah Weiss (Doctor)
+   - Abdul Rahman (Medical Student)
+   - Chloe Martin (Nurse)
+   - Samir Haddad (Hospital Administrator)
+   - Leila Karimi (Pharmacist)
+   - Oliver Grant (Biotech Researcher)
+   - Aiko Mori (Biomedical Engineering Student)
+   - Emily Clarke (Psychologist)
+   - Rayan Saeed (Psychology Student)
+   - Camille Dubois (Fashion Designer)
+   - Mateus Silva (Sports Scientist)
+   - Lina Yousef (Personal Trainer)
+
+Room 12: [Cybersecurity]
+   - Viktor Petrov (Cybersecurity Analyst)
+   - Sana Malik (Cybersecurity Student)
 
 Map saved to: outputs/attendee_map.png
