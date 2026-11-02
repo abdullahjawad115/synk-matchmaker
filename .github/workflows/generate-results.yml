@@ -1,0 +1,48 @@
+name: Generate results
+
+# Runs the matchmaker on GitHub's servers and saves the outputs
+# (results, attendee map, app screenshot) back into the repo.
+on:
+  push:
+    branches: [main]
+    paths: ["matchmaker.py", "app.py", "data/**", "requirements.txt", "scripts/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Run the matchmaker
+        run: |
+          mkdir -p outputs
+          python matchmaker.py | tee outputs/results.txt
+
+      - name: Screenshot the web app
+        run: |
+          streamlit run app.py --server.headless true --server.port 8501 &
+          sleep 10
+          python scripts/screenshot.py http://localhost:8501 outputs/app_screenshot.png
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/
+          git diff --cached --quiet || git commit -m "Update generated results"
+          git push
