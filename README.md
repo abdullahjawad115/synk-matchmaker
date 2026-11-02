@@ -10,6 +10,8 @@ Attendees write a short bio. The matchmaker uses NLP embeddings to understand wh
 
 Built as a prototype feature for AI-powered virtual event platforms (conferences, trade shows and networking events), where helping people find each other is the hardest part.
 
+![Web app screenshot](outputs/app_screenshot.png)
+
 ---
 
 ## How it works
@@ -35,6 +37,33 @@ bios ──► embeddings ──► cosine similarity ──► top matches
 | Fintech startup founder | Fintech founder, then angel investor | Same space, plus someone who funds it |
 | 3D artist | Game developer | Both build 3D worlds |
 | Incoming CS student into AI | Two other AI-focused students, then an ML engineer | Peers first, then a mentor |
+
+---
+
+## Results: keywords vs. meaning
+
+I first built the pipeline with **TF-IDF** (keyword matching), then switched to a **sentence transformer**. Same 34 attendees, same code, different embeddings:
+
+| Attendee | TF-IDF top match | Transformer top match |
+|---|---|---|
+| Aisha (computer vision ML engineer) | Robotics engineer (0.24). **Missed** the other computer vision engineer | **Amir, Computer Vision Engineer (0.72)** |
+| Diego (fintech founder raising seed) | Fintech founder (0.31) | **Angel investor (0.72)**, then fintech founder and VC |
+| Hana (3D artist) | Game dev (0.33), then weak matches (0.09) | Game dev, VR dev **and** technical artist (0.60–0.69) |
+| Dina (event organizer, virtual events) | Near-zero scores (≤ 0.09) | **VR dev, 3D artist and community manager** (0.35–0.42) |
+
+| Clustering quality | TF-IDF | Transformer |
+|---|---|---|
+| Silhouette score (higher = cleaner rooms) | 0.052 | **0.145** (≈ 3× better) |
+
+Aisha and Amir describe the same job in different words ("object detection" vs. "image recognition"). TF-IDF sees no shared keywords, but the transformer understands they mean the same thing.
+
+### Attendee map
+
+Every attendee plotted by bio similarity (t-SNE), coloured by breakout room:
+
+![Attendee map](outputs/attendee_map.png)
+
+Full output: [`outputs/results.txt`](outputs/results.txt). These results are regenerated automatically by a [GitHub Action](.github/workflows/generate-results.yml) whenever the code or data changes.
 
 ---
 
@@ -65,6 +94,8 @@ The first run downloads the embedding model (~80 MB). Without internet, it falls
 ├── app.py               # Streamlit web app
 ├── matchmaker.py        # Core ML: embeddings, matching, clustering, visualization
 ├── data/attendees.csv   # 34 sample attendees (name, role, bio)
+├── outputs/             # Generated results, map and screenshot (by GitHub Actions)
+├── scripts/             # Helper scripts (app screenshot)
 └── requirements.txt
 ```
 
