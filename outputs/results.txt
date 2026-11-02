@@ -1,0 +1,77 @@
+
+Method used: transformer (all-MiniLM-L6-v2)  |  matrix shape: (34, 384)
+
+Aisha Khan (ML Engineer) should meet:
+   0.72  Amir Rahimi - Computer Vision Engineer
+   0.54  Omar Farouk - Robotics Engineer
+   0.39  Yara Mansour - Student
+
+Diego Ramos (Startup Founder) should meet:
+   0.72  Xavier Dubois - Angel Investor
+   0.59  Carlos Vega - Fintech Founder
+   0.58  Ibrahim Saleh - Venture Capitalist
+
+Hana Sato (3D Artist) should meet:
+   0.69  George Lin - Game Developer
+   0.67  Victor Huang - VR Developer
+   0.60  Gabriel Silva - Technical Artist
+
+Yara Mansour (Student) should meet:
+   0.67  Fatima Zahra - Student
+   0.50  Omar Farouk - Robotics Engineer
+   0.49  Marco Rossi - Startup Founder
+
+Dina Yousef (Event Organizer) should meet:
+   0.42  Victor Huang - VR Developer
+   0.37  Hana Sato - 3D Artist
+   0.35  Bella Martins - Community Manager
+
+Breakout rooms (silhouette score: 0.145)
+
+Room 1: [data / build / lead]
+   - Ben Carter (Data Scientist)
+   - Julia Novak (Marketing Lead)
+   - Karan Mehta (Backend Engineer)
+   - Priya Nair (Data Engineer)
+   - Quinn Taylor (Content Creator)
+   - Rami Aziz (Blockchain Developer)
+   - Uma Rao (Product Manager)
+   - Wen Li (Brand Designer)
+   - Zane Cooper (Sales Lead)
+   - Bella Martins (Community Manager)
+   - Hiba Ali (Growth Marketer)
+
+Room 2: [apps / user / react]
+   - Emma Schultz (Product Designer)
+   - Farah Haddad (Frontend Developer)
+   - Nadia Petrova (UX Researcher)
+   - Ethan Brooks (Full Stack Developer)
+
+Room 3: [train / learning / vision]
+   - Aisha Khan (ML Engineer)
+   - Chen Wei (AI Researcher)
+   - Omar Farouk (Robotics Engineer)
+   - Sofia Gomez (Healthcare AI)
+   - Amir Rahimi (Computer Vision Engineer)
+
+Room 4: [virtual / 3d / worlds]
+   - George Lin (Game Developer)
+   - Hana Sato (3D Artist)
+   - Tom Becker (DevOps Engineer)
+   - Victor Huang (VR Developer)
+   - Dina Yousef (Event Organizer)
+   - Gabriel Silva (Technical Artist)
+
+Room 5: [year / science / building]
+   - Lena Fischer (NLP Engineer)
+   - Marco Rossi (Startup Founder)
+   - Yara Mansour (Student)
+   - Fatima Zahra (Student)
+
+Room 6: [seed / founder / looking]
+   - Diego Ramos (Startup Founder)
+   - Ibrahim Saleh (Venture Capitalist)
+   - Xavier Dubois (Angel Investor)
+   - Carlos Vega (Fintech Founder)
+
+Map saved to: outputs/attendee_map.png
