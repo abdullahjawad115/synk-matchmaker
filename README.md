@@ -106,7 +106,7 @@ Full output: [`outputs/results.txt`](outputs/results.txt). These results are reg
 
 - **Keyword matching vs. meaning.** TF-IDF only matches exact words, so a "computer vision / object detection" engineer didn't match an "image recognition / CNN" engineer, even though they do the same job. Sentence transformers fix this because they encode meaning, not vocabulary.
 - **Choosing k is a judgment call.** The silhouette score kept rising as rooms got smaller, so I picked the number of rooms that made sense for a real event, not just the highest score.
-- **Test with real users.** A friend in industrial engineering exposed a bias that never showed up in my tech-only test data. The fix came from the data and the features, not from a bigger model.
+- **Test with real users.** Trying the app with an industrial engineering profile exposed a bias that never showed up in my tech-only test data. The fix came from the data and the features, not from a bigger model.
 - **Always look at results.** The clustering and the 2D map sometimes disagreed (for example, an event organizer was clustered with founders but sat next to the 3D builders on the map). Inspecting both caught mistakes a single metric would hide.
 
 ---
