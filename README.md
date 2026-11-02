@@ -145,4 +145,10 @@ The first run downloads the embedding model (~80 MB). Without internet, it falls
 
 ---
 
-Built by **Abdullah Jawad**. [GitHub](https://github.com/abdullahjawad115)
+## License
+
+MIT, see [LICENSE](LICENSE).
+
+---
+
+Built by **Abdullah Jawadwala**. [GitHub](https://github.com/abdullahjawad115)
