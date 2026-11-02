@@ -1,35 +1,111 @@
-name,role,bio
-Aisha Khan,ML Engineer,I train deep learning models for computer vision and love tinkering with PyTorch and object detection.
-Ben Carter,Data Scientist,I analyze customer data with pandas and build machine learning models to predict churn.
-Chen Wei,AI Researcher,Researching large language models and how to make neural networks more efficient to train.
-Diego Ramos,Startup Founder,Founder of a fintech startup raising our seed round. Looking for investors and a technical co-founder.
-Emma Schultz,Product Designer,I design mobile apps and care a lot about user experience research and clean interfaces in Figma.
-Farah Haddad,Frontend Developer,I build web apps with React and TypeScript and enjoy making smooth animations.
-George Lin,Game Developer,I make indie games in Unity and build 3D worlds and multiplayer mechanics.
-Hana Sato,3D Artist,I create 3D environments and characters in Blender for games and virtual worlds.
-Ibrahim Saleh,Venture Capitalist,Early-stage investor at a VC fund looking for AI and SaaS startups to back.
-Julia Novak,Marketing Lead,I run growth marketing and social media campaigns for B2B SaaS companies.
-Karan Mehta,Backend Engineer,I build scalable APIs in Python and Go and manage cloud infrastructure on AWS.
-Lena Fischer,NLP Engineer,I work on natural language processing chatbots and text classification using transformers.
-Marco Rossi,Startup Founder,Building an edtech startup that helps students learn coding. Looking for early users and mentors.
-Nadia Petrova,UX Researcher,I run user interviews and usability tests to understand how people use digital products.
-Omar Farouk,Robotics Engineer,I program robots and drones using computer vision and reinforcement learning.
-Priya Nair,Data Engineer,I build data pipelines with SQL and Spark and keep data warehouses clean and fast.
-Quinn Taylor,Content Creator,I make YouTube videos and TikToks about tech and startup life and grow online communities.
-Rami Aziz,Blockchain Developer,I write smart contracts in Solidity and build decentralized finance apps.
-Sofia Gomez,Healthcare AI,Using machine learning to analyze medical images and help doctors detect diseases earlier.
-Tom Becker,DevOps Engineer,I automate deployments with Docker Kubernetes and CI CD pipelines.
-Uma Rao,Product Manager,I lead product teams at a SaaS company and turn customer feedback into roadmaps.
-Victor Huang,VR Developer,I build virtual reality experiences and multiplayer metaverse spaces in Unreal Engine.
-Wen Li,Brand Designer,I design logos brand identities and visual systems for startups.
-Xavier Dubois,Angel Investor,Angel investor and former founder. I invest in pre-seed startups and mentor first-time founders.
-Yara Mansour,Student,First-year computer science student interested in machine learning and building AI projects.
-Zane Cooper,Sales Lead,I lead enterprise sales and build partnerships for a software company.
-Amir Rahimi,Computer Vision Engineer,I build image recognition systems and train convolutional neural networks on large datasets.
-Bella Martins,Community Manager,I organize tech meetups and online events and help communities connect and grow.
-Carlos Vega,Fintech Founder,Building a payments app for small businesses. Looking for fintech partners and seed investors.
-Dina Yousef,Event Organizer,I plan conferences and trade shows and I am exploring virtual and hybrid event formats.
-Ethan Brooks,Full Stack Developer,I build web apps end to end with Node React and PostgreSQL.
-Fatima Zahra,Student,High school graduate starting computer science next year and teaching myself Python and AI.
-Gabriel Silva,Technical Artist,I write shaders and optimize 3D graphics for real-time engines like Unity and Unreal.
-Hiba Ali,Growth Marketer,I run paid ads SEO and email campaigns to help startups get their first thousand users.
+name,role,field,stage,interests,bio
+Aisha Khan,ML Engineer,Artificial Intelligence,Professional,computer vision; deep learning; PyTorch,I train deep learning models for computer vision and love tinkering with PyTorch and object detection.
+Ben Carter,Data Scientist,Data Science,Professional,machine learning; analytics; churn prediction,I analyze customer data with pandas and build machine learning models to predict churn.
+Chen Wei,AI Researcher,Artificial Intelligence,Professional,large language models; efficient training; research,Researching large language models and how to make neural networks more efficient to train.
+Diego Ramos,Startup Founder,Fintech,Founder,fundraising; fintech; finding a technical co-founder,Founder of a fintech startup raising our seed round. Looking for investors and a technical co-founder.
+Emma Schultz,Product Designer,Design,Professional,UX research; mobile apps; Figma,I design mobile apps and care a lot about user experience research and clean interfaces in Figma.
+Farah Haddad,Frontend Developer,Software Engineering,Professional,React; TypeScript; animation,I build web apps with React and TypeScript and enjoy making smooth animations.
+George Lin,Game Developer,Gaming & 3D,Professional,Unity; 3D worlds; multiplayer,I make indie games in Unity and build 3D worlds and multiplayer mechanics.
+Hana Sato,3D Artist,Gaming & 3D,Professional,Blender; 3D environments; virtual worlds,I create 3D environments and characters in Blender for games and virtual worlds.
+Ibrahim Saleh,Venture Capitalist,Investing,Investor,AI startups; SaaS; early-stage investing,Early-stage investor at a VC fund looking for AI and SaaS startups to back.
+Julia Novak,Marketing Lead,Marketing,Professional,growth marketing; social media; B2B SaaS,I run growth marketing and social media campaigns for B2B SaaS companies.
+Karan Mehta,Backend Engineer,Software Engineering,Professional,APIs; cloud infrastructure; AWS,I build scalable APIs in Python and Go and manage cloud infrastructure on AWS.
+Lena Fischer,NLP Engineer,Artificial Intelligence,Professional,natural language processing; chatbots; transformers,I work on natural language processing chatbots and text classification using transformers.
+Marco Rossi,Startup Founder,Education,Founder,edtech; teaching coding; finding mentors,Building an edtech startup that helps students learn coding. Looking for early users and mentors.
+Nadia Petrova,UX Researcher,Design,Professional,user interviews; usability testing; product research,I run user interviews and usability tests to understand how people use digital products.
+Omar Farouk,Robotics Engineer,Robotics,Professional,robots; drones; reinforcement learning,I program robots and drones using computer vision and reinforcement learning.
+Priya Nair,Data Engineer,Data Science,Professional,data pipelines; SQL; Spark,I build data pipelines with SQL and Spark and keep data warehouses clean and fast.
+Quinn Taylor,Content Creator,Media & Journalism,Professional,YouTube; TikTok; online communities,I make YouTube videos and TikToks about tech and startup life and grow online communities.
+Rami Aziz,Blockchain Developer,Web3,Professional,smart contracts; Solidity; DeFi,I write smart contracts in Solidity and build decentralized finance apps.
+Sofia Gomez,Healthcare AI,Healthcare & Medicine,Professional,medical imaging; machine learning; diagnostics,Using machine learning to analyze medical images and help doctors detect diseases earlier.
+Tom Becker,DevOps Engineer,Software Engineering,Professional,Docker; Kubernetes; CI CD,I automate deployments with Docker Kubernetes and CI CD pipelines.
+Uma Rao,Product Manager,Product Management,Professional,product strategy; roadmaps; customer feedback,I lead product teams at a SaaS company and turn customer feedback into roadmaps.
+Victor Huang,VR Developer,Gaming & 3D,Professional,virtual reality; metaverse; Unreal Engine,I build virtual reality experiences and multiplayer metaverse spaces in Unreal Engine.
+Wen Li,Brand Designer,Design,Professional,branding; logos; visual identity,I design logos brand identities and visual systems for startups.
+Xavier Dubois,Angel Investor,Investing,Investor,pre-seed investing; mentoring founders,Angel investor and former founder. I invest in pre-seed startups and mentor first-time founders.
+Yara Mansour,Student,Computer Science,Student,machine learning; AI projects,First-year computer science student interested in machine learning and building AI projects.
+Zane Cooper,Sales Lead,Sales,Professional,enterprise sales; partnerships,I lead enterprise sales and build partnerships for a software company.
+Amir Rahimi,Computer Vision Engineer,Artificial Intelligence,Professional,image recognition; CNNs; large datasets,I build image recognition systems and train convolutional neural networks on large datasets.
+Bella Martins,Community Manager,Events & Community,Professional,meetups; online events; community building,I organize tech meetups and online events and help communities connect and grow.
+Carlos Vega,Fintech Founder,Fintech,Founder,payments; small businesses; seed funding,Building a payments app for small businesses. Looking for fintech partners and seed investors.
+Dina Yousef,Event Organizer,Events & Community,Professional,conferences; trade shows; virtual events,I plan conferences and trade shows and I am exploring virtual and hybrid event formats.
+Ethan Brooks,Full Stack Developer,Software Engineering,Professional,Node; React; PostgreSQL,I build web apps end to end with Node React and PostgreSQL.
+Fatima Zahra,Student,Computer Science,Student,Python; AI; self-learning,High school graduate starting computer science next year and teaching myself Python and AI.
+Gabriel Silva,Technical Artist,Gaming & 3D,Professional,shaders; real-time graphics,I write shaders and optimize 3D graphics for real-time engines like Unity and Unreal.
+Hiba Ali,Growth Marketer,Marketing,Professional,paid ads; SEO; email marketing,I run paid ads SEO and email campaigns to help startups get their first thousand users.
+Layla Hassan,Industrial Engineering Student,Industrial Engineering,Student,lean manufacturing; process optimization; operations research,Second-year industrial engineering student who loves optimizing factory layouts and studying lean manufacturing.
+Rohan Gupta,Operations Manager,Operations,Professional,operations; process improvement; Six Sigma,I run day-to-day operations at a manufacturing plant and lead Six Sigma process improvement projects.
+Mei Tanaka,Industrial Engineer,Industrial Engineering,Professional,automation; production planning; simulation,I design automated production lines and use simulation to plan factory capacity.
+Youssef Amrani,Automation Engineer,Manufacturing & Automation,Professional,PLC programming; industrial robots; automation,I program PLCs and industrial robot arms to automate assembly lines in car factories.
+Sara Lindqvist,Operations Research Analyst,Industrial Engineering,Professional,optimization; scheduling; operations research,I build optimization models that schedule workers and machines for a large manufacturer.
+Mariam Khalil,Industrial Engineering Student,Industrial Engineering,Student,warehouse automation; process improvement,First-year industrial engineering student interested in warehouse automation and process improvement.
+Ahmed Al Mansoori,Logistics Manager,Supply Chain & Logistics,Professional,logistics; warehousing; last-mile delivery,I manage warehouses and last-mile delivery for a regional e-commerce company.
+Grace Okafor,Supply Chain Analyst,Supply Chain & Logistics,Professional,demand forecasting; inventory; procurement,I forecast demand and plan inventory so stores never run out of stock.
+Lucas Moreau,Freight Forwarder,Supply Chain & Logistics,Professional,shipping; customs; international trade,I coordinate international shipping and customs clearance for importers and exporters.
+Hamza Qureshi,Supply Chain Student,Supply Chain & Logistics,Student,logistics; operations; automation,Starting a supply chain management degree and curious about how automation is changing warehouses.
+Nina Kowalski,Procurement Lead,Supply Chain & Logistics,Professional,sourcing; supplier negotiation; procurement,I source materials and negotiate with suppliers for a consumer electronics brand.
+Hassan Al Hashimi,Port Operations Manager,Supply Chain & Logistics,Professional,ports; shipping; container logistics,I manage container operations at a major seaport and optimize ship turnaround times.
+Priscilla Adeyemi,Quality Engineer,Manufacturing & Automation,Professional,quality control; manufacturing; inspection,Quality engineer making sure products coming off the production line meet standards.
+Daniel Okoro,Mechanical Engineer,Mechanical Engineering,Professional,CAD; product design; thermodynamics,I design consumer products in SolidWorks and test them for durability and heat.
+Elif Demir,Mechanical Engineering Student,Mechanical Engineering,Student,robotics; CAD; Formula Student,Mechanical engineering student building a race car with my university Formula Student team.
+Raj Malhotra,Chemical Engineer,Chemical Engineering,Professional,process engineering; chemical plants,Chemical engineer optimizing processes at a petrochemical plant.
+Kwame Mensah,Civil Engineer,Civil Engineering & Construction,Professional,structural design; bridges; infrastructure,I design bridges and roads and inspect infrastructure projects for safety.
+Isabella Costa,Construction Project Manager,Civil Engineering & Construction,Professional,construction management; scheduling; budgets,I manage large construction projects and keep them on schedule and on budget.
+Arjun Patel,Civil Engineering Student,Civil Engineering & Construction,Student,sustainable construction; smart cities,Starting civil engineering next year and interested in smart cities and sustainable buildings.
+Sofia Andersson,Architect,Architecture,Professional,building design; urban planning; sustainability,I design energy-efficient homes and public buildings with a focus on sustainability.
+Tariq Nasser,Architecture Student,Architecture,Student,3D modeling; urban design,Architecture student who loves 3D modeling buildings and redesigning city spaces.
+Ingrid Haugen,Electrical Engineer,Energy,Professional,power grids; renewable energy; batteries,I design power grid systems that connect solar and wind farms to cities.
+Mateo Fernandez,Solar Energy Consultant,Energy,Professional,solar panels; clean energy,I help businesses switch to solar power and cut their energy bills.
+Aliyu Bello,Petroleum Engineer,Energy,Professional,oil and gas; drilling; energy transition,I work on oil field operations and I am exploring careers in the energy transition.
+Freya Nilsson,Sustainability Consultant,Environment & Sustainability,Professional,carbon accounting; ESG; climate,I help companies measure their carbon footprint and build climate strategies.
+Kai Nakamura,Environmental Scientist,Environment & Sustainability,Professional,water quality; ecology; fieldwork,I study river ecosystems and test water quality for environmental agencies.
+Joseph Mwangi,Agritech Founder,Agriculture,Founder,smart farming; sensors; food security,Building sensors that help small farmers monitor soil and water their crops efficiently.
+Rosa Jimenez,Agronomist,Agriculture,Professional,crop science; soil health; farming,I advise farmers on soil health and crop rotation to increase yields.
+Hannah Weiss,Doctor,Healthcare & Medicine,Professional,emergency medicine; patient care,Emergency room doctor interested in how technology can reduce waiting times in hospitals.
+Abdul Rahman,Medical Student,Healthcare & Medicine,Student,medicine; surgery; anatomy,Third-year medical student hoping to specialize in surgery.
+Chloe Martin,Nurse,Healthcare & Medicine,Professional,nursing; pediatrics; patient care,Pediatric nurse who loves working with kids and families.
+Samir Haddad,Hospital Administrator,Healthcare & Medicine,Professional,hospital operations; healthcare management,I manage hospital operations including staff scheduling and patient flow.
+Leila Karimi,Pharmacist,Pharma & Biotech,Professional,pharmacy; medications; patient counseling,Community pharmacist helping patients understand their medications.
+Oliver Grant,Biotech Researcher,Pharma & Biotech,Professional,genetics; drug discovery; lab research,I research new cancer drugs in a biotech lab using gene editing.
+Aiko Mori,Biomedical Engineering Student,Pharma & Biotech,Student,medical devices; biomaterials,Biomedical engineering student designing low-cost medical devices.
+Emily Clarke,Psychologist,Psychology & Mental Health,Professional,therapy; mental health; wellbeing,Clinical psychologist helping young adults manage stress and build healthy habits.
+Rayan Saeed,Psychology Student,Psychology & Mental Health,Student,behavior; research; neuroscience,Psychology student fascinated by how people make decisions.
+James Whitfield,Investment Banker,Finance & Banking,Professional,mergers and acquisitions; valuation,Investment banker working on mergers and acquisitions in the tech sector.
+Priyanka Shah,Financial Analyst,Finance & Banking,Professional,financial modeling; budgeting; Excel,I build financial models and budgets for a retail company.
+Omar Siddiqui,Finance Student,Finance & Banking,Student,stock markets; investing; economics,Finance student who loves analyzing stock markets and economics.
+Claire Dupont,Actuary,Finance & Banking,Professional,risk; statistics; insurance,Actuary using statistics to price insurance and model risk.
+Linda Park,Accountant,Accounting,Professional,auditing; tax; financial reporting,Chartered accountant specializing in audits and tax for small businesses.
+Felipe Rojas,Accounting Student,Accounting,Student,bookkeeping; tax; finance,Starting an accounting degree next year and already doing bookkeeping for my family business.
+Victoria Hughes,Corporate Lawyer,Law,Professional,contracts; corporate law; startups,Corporate lawyer who helps startups with contracts and fundraising and company setup.
+Kareem Abdallah,Law Student,Law,Student,human rights; international law,Law student interested in international law and human rights.
+Natalia Ivanova,Legal Tech Founder,Law,Founder,legal tech; automation; contracts,Building software that automates contract review for small law firms.
+Sarah Thompson,High School Teacher,Education,Professional,teaching; mathematics; edtech,High school math teacher experimenting with online tools in the classroom.
+Mohamed Diallo,University Lecturer,Education,Professional,teaching; research; economics,Economics lecturer researching development and teaching undergraduates.
+Ana Lopez,Education Student,Education,Student,teaching; child development,Training to become a primary school teacher.
+Ryan Connor,Business Student,Business,Student,entrepreneurship; strategy; management,Business administration student who wants to start a company after graduating.
+Aaliyah Brooks,Management Consultant,Business,Professional,strategy; operations; consulting,Management consultant helping companies improve their operations and strategy.
+Fatima Begum,HR Manager,Human Resources,Professional,recruiting; employee wellbeing,I lead recruiting and employee wellbeing programs at a fast-growing company.
+Thomas Meyer,Recruiter,Human Resources,Professional,tech recruiting; hiring; talent,Tech recruiter who helps startups hire engineers and designers.
+Khalid Al Suwaidi,Real Estate Agent,Real Estate,Professional,property sales; real estate investment,Real estate agent selling apartments and advising first-time buyers.
+Monica Reyes,Property Developer,Real Estate,Founder,property development; construction; investment,I develop residential buildings and look for construction partners and investors.
+Luca Bianchi,Hotel Manager,Hospitality & Tourism,Professional,hotel operations; guest experience,Hotel manager focused on guest experience and running smooth operations.
+Amira Saleh,Travel Startup Founder,Hospitality & Tourism,Founder,travel; tourism; booking platforms,Building a travel booking app for local tours and experiences.
+Pierre Laurent,Chef,Food & Restaurants,Professional,cooking; restaurants; food innovation,Head chef at a restaurant experimenting with plant-based menus.
+Jasmine Lee,E-commerce Manager,Retail & E-commerce,Professional,online stores; Shopify; customer experience,I run an online fashion store and manage our Shopify site and order fulfillment.
+Bilal Chaudhry,Retail Store Manager,Retail & E-commerce,Professional,retail operations; inventory; sales,I manage a busy electronics store and its inventory and staff.
+Camille Dubois,Fashion Designer,Fashion,Professional,clothing design; sustainable fashion,Fashion designer creating sustainable clothing from recycled fabrics.
+Daniel Harris,Journalist,Media & Journalism,Professional,news; investigative reporting; writing,Investigative journalist covering technology and business news.
+Zara Ahmed,Media Student,Media & Journalism,Student,filmmaking; storytelling; social media,Media student making short documentaries and social media stories.
+Marcus Johnson,Film Director,Film & Music,Professional,filmmaking; directing; visual effects,Independent film director working on a sci-fi short film with visual effects.
+Leah Cohen,Music Producer,Film & Music,Professional,music production; audio; sound design,Music producer and sound designer for games and ads.
+Ines Duarte,Illustrator,Arts,Professional,illustration; digital art; animation,Freelance illustrator drawing picture books and animated characters.
+Sebastian Wolf,Aerospace Engineer,Aerospace & Aviation,Professional,aircraft design; aerodynamics; drones,Aerospace engineer designing lightweight drones and aircraft parts.
+Noor Hamdan,Pilot,Aerospace & Aviation,Professional,aviation; flight operations; safety,Commercial airline pilot interested in aviation safety and pilot training.
+Erik Johansson,Automotive Engineer,Automotive,Professional,electric vehicles; batteries; car design,I design battery systems for electric vehicles.
+Ama Owusu,Policy Advisor,Government & Public Policy,Professional,public policy; urban development; transport,Policy advisor working on transport and urban development for the city government.
+Yusuf Demir,Public Administration Student,Government & Public Policy,Student,governance; policy; economics,Studying public administration and interested in how governments use data.
+Grace Kim,Nonprofit Director,Nonprofit & Social Impact,Professional,fundraising; social impact; volunteers,I run a nonprofit that teaches coding to refugees and underserved youth.
+Mateus Silva,Sports Scientist,Sports & Fitness,Professional,sports performance; fitness; wearables,Sports scientist using wearable data to improve athlete performance.
+Lina Yousef,Personal Trainer,Sports & Fitness,Founder,fitness; coaching; online training,Personal trainer building an online coaching business.
+Viktor Petrov,Cybersecurity Analyst,Cybersecurity,Professional,network security; ethical hacking; threat detection,Cybersecurity analyst who monitors networks and investigates attacks.
+Sana Malik,Cybersecurity Student,Cybersecurity,Student,ethical hacking; CTF competitions,Cybersecurity student who competes in capture-the-flag hacking competitions.
